@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +9,7 @@
 <body>
     <h1>Cálculos</h1>
 
+ <main>
     <div>
         <h2>SOMA</h2>
         <label for="n1">Primeiro número</label>
@@ -18,42 +19,37 @@
         <button onclick="somar()">SOMAR</button>
         <p id="resposta"></p>
     </div>
-
-    <hr>
-
-    <div>
+   
+     <div>
         <h2>SUBTRAÇÃO</h2>
         <label for="n3">Primeiro número</label>
         <input type="number" id="n3">
         <label for="n4">Segundo número</label>
         <input type="number" id="n4">
-        <button onclick="Subtração()">Subtração</button>
-        <p id="respsub"></p>
+        <button onclick="sub()">SUBTRAÇÃO</button>
+        <p id="respSub"></p>
     </div>
-
-    <hr>
-
-    <div>
-        <h2>MULTIPLICAÇÃO</h2>
+   
+      <div>
+        <h2>Multiplicação</h2>
         <label for="n5">Primeiro número</label>
         <input type="number" id="n5">
         <label for="n6">Segundo número</label>
         <input type="number" id="n6">
-        <button onclick="multiplicar()">Multiplicar</button>
-        <p id="respmult"></p>
+        <button onclick="multi()">SUBTRAÇÃO</button>
+        <p id="respMulti"></p>
     </div>
-
-    <hr>
-
-    <div>
-        <h2>DIVISÃO</h2>
+ 
+         <div>
+        <h2>Divisão</h2>
         <label for="n7">Primeiro número</label>
         <input type="number" id="n7">
         <label for="n8">Segundo número</label>
         <input type="number" id="n8">
-        <button onclick="dividir()">Dividir</button>
-        <p id="respdiv"></p>
+        <button onclick="div()">DIVISÃO</button>
+        <p id="respDiv"></p>
     </div>
+</main>
 
     <script src="script.js"></script>
 </body>
